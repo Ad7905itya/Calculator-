@@ -1,0 +1,101 @@
+:root {
+  --Very-dark-desaturated-blue1: hsl(222, 26%, 31%);
+  --Very-dark-desaturated-blue2: hsl(223, 31%, 20%);
+  --Very-dark-desaturated-blue3: hsl(224, 36%, 15%);
+  --Desaturated-dark-blue1: hsl(225, 21%, 49%);
+  --Desaturated-dark-blue2: hsl(224, 28%, 35%);
+  --Red: hsl(6, 63%, 50%);
+  --Dark-red: hsl(6, 70%, 34%);
+  --Light-grayish-orange: hsl(30, 25%, 89%);
+  --Grayish-orange: hsl(28, 16%, 65%);
+  --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(0, 0%, 90%);
+  --Grayish-red: hsl(0, 5%, 81%);
+  --Very-light-gray: hsl(0, 0%, 93%);
+  --Dark-moderate-cyan: hsl(185, 42%, 37%);
+  --Very-dark-cyan: hsl(185, 58%, 25%);
+  --Orange: hsl(25, 98%, 40%);
+  --Dark-orange: hsl(25, 99%, 27%);
+  --Light-grayish-yellow: hsl(45, 7%, 89%);
+  --Dark-grayish-orange: hsl(35, 11%, 61%);
+  --Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+  --Very-dark-violet: hsl(268, 75%, 9%);
+  --Very-dark-violet1: hsl(268, 71%, 12%);
+  --Dark-violet: hsl(281, 89%, 26%);
+  --Vivid-magenta: hsl(285, 91%, 52%);
+  --Pure-cyan: hsl(176, 100%, 44%);
+  --Soft-cyan: hsl(177, 92%, 70%);
+  --Dark-magenta: hsl(290, 70%, 36%);
+  --Light-yellow: hsl(52, 100%, 62%);
+  --Very-dark-blue: hsl(198, 20%, 13%);
+}
+
+/* Add this at the end of App.css */
+
+.theme1 {
+  --bg-main: var(--Desaturated-dark-blue1);
+  --input-text: var(--White);
+  --input-bg: var(--Very-dark-desaturated-blue2);
+  --toggle-bg: var(--Very-dark-desaturated-blue2);
+  --equal-bg: var(--Orange);
+  --key-bg: var(--Light-grayish-orange);
+  --key-text: var(--Very-dark-desaturated-blue1);
+  --screen-bg: var(--Very-dark-desaturated-blue1);
+  --hover-key-bg: var(--White);
+  --border: var(--Grayish-orange);
+  --hover-key-bg-border: var(--Grayish-orange);
+  --border-del: var(--Desaturated-dark-blue2);
+  --border-equal: var(--Dark-red);
+  --bg-del: var(--Desaturated-dark-blue1);
+  --text-equal: var(--White);
+  --equal-bg-hover: hsl(25, 100%, 68%);
+  --bg-del-hover: hsl(225, 40%, 65%);
+  --border-del-hover: var(--Desaturated-dark-blue2);
+  --border-equal-hover: var(--Dark-red);
+}
+
+.theme2 {
+  --bg-main: var(--Light-gray);
+  --input-text: var(--Very-dark-blue);
+  --input-bg: var(--White);
+  --toggle-bg: var(--Grayish-red);
+  --equal-bg: var(--Orange);
+  --key-text: var(--Very-dark-blue);
+  --key-bg: var(--Light-grayish-yellow);
+  --hover-key-bg: white;
+  --screen-bg: var(--Grayish-red);
+  --border: var(--Dark-grayish-orange);
+  --border-del: var(--Very-dark-cyan);
+  --border-equal: var(--Dark-red);
+  --bg-del: var(--Dark-moderate-cyan);
+  --bg-del-hover: var(--Pure-cyan);
+  --hover-key-bg: var(--Grayish-red);
+  --border-del-hover: var(--Very-dark-cyan);
+  --equal-bg-hover: hsl(25, 81%, 57%);
+  --border-equal-hover: var(--Dark-red);
+  --text-equal: var(--White);
+}
+
+.theme3 {
+  --bg-main: var(--Very-dark-violet);
+  --input-text: var(--Light-yellow);
+  --input-bg: var(--Very-dark-violet1);
+  --toggle-bg: var(--Very-dark-violet1);
+  --screen-bg: var(--Very-dark-violet1);
+  --key-bg: var(--Very-dark-violet);
+  --equal-bg: var(--Pure-cyan);
+  --key-text: var(--Light-yellow);
+  --hover-key-bg: var(--Dark-magenta);
+  --border: var(--Dark-violet);
+  --border-del: var(--Dark-magenta);
+  --border-equal: var(--Soft-cyan);
+  --bg-del: var(--Dark-violet);
+  --text-equal: var(--Very-dark-violet1);
+}
+
+.theme1,
+.theme2,
+.theme3 {
+  transition: all 1s ease-in-out;
+}
