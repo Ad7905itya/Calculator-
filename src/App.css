@@ -70,7 +70,8 @@
   --border-equal: var(--Dark-red);
   --bg-del: var(--Dark-moderate-cyan);
   --bg-del-hover: var(--Pure-cyan);
-  --hover-key-bg: var(--Grayish-red);
+  --hover-key-bg-border: var(--Dark-grayish-orange);
+  --hover-key-bg: var(--White);
   --border-del-hover: var(--Very-dark-cyan);
   --equal-bg-hover: hsl(25, 81%, 57%);
   --border-equal-hover: var(--Dark-red);
@@ -92,6 +93,12 @@
   --border-equal: var(--Soft-cyan);
   --bg-del: var(--Dark-violet);
   --text-equal: var(--Very-dark-violet1);
+  --hover-key-bg: var(--Desaturated-dark-blue1);
+  --hover-key-bg-border: var(--Dark-violet);
+  --bg-del-hover: var(--Dark-magenta);
+  --border-del-hover: var(--Dark-magenta);
+  --border-equal-hover: var(--Soft-cyan);
+  --equal-bg-hover: var(--Soft-cyan);
 }
 
 .theme1,
